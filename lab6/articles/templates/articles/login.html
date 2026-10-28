@@ -1,0 +1,4 @@
+{% extends 'articles/base.html' %}
+{% block content %}<section class="form-panel"><h1>Вход</h1>
+<form method="post">{% csrf_token %}{{ form.as_p }}
+<button type="submit">Войти</button></form></section>{% endblock %}

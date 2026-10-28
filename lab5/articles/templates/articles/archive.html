@@ -1,0 +1,11 @@
+{% extends 'articles/base.html' %}
+{% block title %}Архив статей{% endblock %}
+{% block content %}
+{% for post in posts %}
+<article class="one-post">
+<h2 class="post-title"><a href="{% url 'get_article' post.id %}">{{ post.title }}</a></h2>
+<div class="article-info"><strong class="article-author">{{ post.author.username }}</strong>
+<time class="article-created-date">{{ post.created_date|date:"d.m.Y" }}</time></div>
+<p class="article-text">{{ post.get_excerpt }}</p></article>
+{% empty %}<p>Записей пока нет.</p>{% endfor %}
+{% endblock %}

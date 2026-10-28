@@ -1,0 +1,8 @@
+body { background: #1abc9c; font-family: Tahoma, Arial, sans-serif; color: #233; }
+h1 { font-family: Georgia, 'Times New Roman', serif; }
+h4 { font-size: 18px; margin-bottom: 8px; }
+ul, ol { margin-top: 0; }
+table { width: 100%; border-collapse: collapse; }
+th, td { border: 1px solid #245; padding: 7px; text-align: left; }
+th { background: #d9f7ee; }
+img { height: 30px; width: auto; }

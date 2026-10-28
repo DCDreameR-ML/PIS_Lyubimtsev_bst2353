@@ -1,0 +1,74 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "username": "mikhail",
+      "first_name": "Михаил",
+      "last_name": "Любимцев",
+      "email": "mikhail@example.test",
+      "password": "!",
+      "last_login": null,
+      "date_joined": "2026-10-28T00:00:00Z",
+      "is_superuser": true,
+      "is_staff": true,
+      "is_active": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "username": "admin2",
+      "first_name": "",
+      "last_name": "",
+      "email": "admin2@example.test",
+      "password": "!",
+      "last_login": null,
+      "date_joined": "2026-10-28T00:00:00Z",
+      "is_superuser": true,
+      "is_staff": true,
+      "is_active": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+      "username": "reader",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "password": "!",
+      "last_login": null,
+      "date_joined": "2026-10-28T00:00:00Z",
+      "is_superuser": false,
+      "is_staff": false,
+      "is_active": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+      "username": "blocked",
+      "first_name": "",
+      "last_name": "",
+      "email": "blocked@example.test",
+      "password": "!",
+      "last_login": null,
+      "date_joined": "2026-10-28T00:00:00Z",
+      "is_superuser": false,
+      "is_staff": false,
+      "is_active": false,
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]

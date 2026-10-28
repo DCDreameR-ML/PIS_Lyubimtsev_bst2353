@@ -1,0 +1,9 @@
+{% extends 'articles/base.html' %}
+{% block title %}{{ post.title }}{% endblock %}
+{% block body_class %}article{% endblock %}
+{% block content %}<article class="one-post">
+<h1>{{ post.title }}</h1>
+<div class="article-info"><strong class="article-author">{{ post.author.username }}</strong>
+<time class="article-created-date">{{ post.created_date|date:"d.m.Y" }}</time></div>
+<div class="article-text">{{ post.text|linebreaks }}</div>
+</article>{% endblock %}

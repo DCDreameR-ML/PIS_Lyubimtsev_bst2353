@@ -1,0 +1,11 @@
+{% load static %}
+<!doctype html><html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}Django public blog{% endblock %}</title>
+<link rel="stylesheet" href="{% static 'articles/css/article.css' %}">
+</head><body class="{% block body_class %}archive{% endblock %}">
+<header class="header"><a href="{% url 'archive' %}">
+<img src="{% static 'articles/img/logo.svg' %}" alt="Django public blog"></a>
+<nav><a href="{% url 'archive' %}">Все записи</a></nav></header>
+<main class="content">{% block content %}{% endblock %}</main>
+{% block scripts %}{% endblock %}</body></html>

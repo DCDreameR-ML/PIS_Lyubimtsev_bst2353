@@ -1,0 +1,9 @@
+<section class="student-tools"><h2>Фильтрация студентов</h2>
+<form id="student-filter">
+<label>Группа <input id="group-filter" placeholder="Все группы"></label>
+<label>Средний балл выше <input id="mark-filter" type="number" min="2" max="5" step="0.1" value="4"></label>
+<button type="submit">Применить</button>
+<button type="button" id="reset-filter">Все студенты</button></form>
+<p id="student-message" role="status"></p>
+<table><thead><tr><th>Имя</th><th>Фамилия</th><th>Группа</th><th>Оценки</th><th>Средний</th></tr></thead>
+<tbody id="student-rows"></tbody></table></section>
