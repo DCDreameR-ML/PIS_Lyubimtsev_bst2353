@@ -15,7 +15,7 @@ const groupmates = [
     ]
   },
   {
-    "name": "Андрей",
+    "name": "А.",
     "surname": "Резник",
     "group": "БСТ2353",
     "exams": [
@@ -30,7 +30,7 @@ const groupmates = [
     ]
   },
   {
-    "name": "Иван",
+    "name": "И.",
     "surname": "Еремеев",
     "group": "БСТ2353",
     "exams": [
@@ -45,7 +45,7 @@ const groupmates = [
     ]
   },
   {
-    "name": "Фазаил",
+    "name": "Ф.",
     "surname": "Аскеров",
     "group": "БСТ2353",
     "exams": [
@@ -60,9 +60,9 @@ const groupmates = [
     ]
   },
   {
-    "name": "Анна",
-    "surname": "Орлова",
-    "group": "БСТ2354",
+    "name": "А.",
+    "surname": "Горохова",
+    "group": "БСТ2353",
     "exams": [
       "ПИС",
       "БД",
@@ -75,9 +75,9 @@ const groupmates = [
     ]
   },
   {
-    "name": "Олег",
-    "surname": "Соколов",
-    "group": "БСТ2354",
+    "name": "Д.",
+    "surname": "Гусев",
+    "group": "БСТ2353",
     "exams": [
       "ПИС",
       "БД",
